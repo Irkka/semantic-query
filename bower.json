@@ -6,7 +6,7 @@
     "Ilkka Hakkarainen <ilkka.hakkarainen@cs.helsinki.fi>"
   ],
   "description": "Media queries by purpose, not by numbers.",
-  "main": "stylesheets/semantic-query.scss",
+  "main": "sass/semantic-query.scss",
   "keywords": [
     "sass",
     "css",
