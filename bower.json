@@ -1,0 +1,23 @@
+{
+  "name": "semantic-query",
+  "version": "0.0.1",
+  "homepage": "http://hello.iruka.fi",
+  "authors": [
+    "Ilkka Hakkarainen <ilkka.hakkarainen@cs.helsinki.fi>"
+  ],
+  "description": "Media queries by purpose, not by numbers.",
+  "main": "stylesheets/semantic-query.scss",
+  "keywords": [
+    "sass",
+    "css",
+    "media-query"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
