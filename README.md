@@ -14,27 +14,30 @@ and two auxiliary mixins for orientation:
 ## Example usage
 
 ```
-.site-data {
-    background: white;
+@import 'semantic-query';
 
-    @include phone {
-        background: red;
-        
-        @include landscape {
-            color: green;
-        }
+body {
+  background-color: green;
+
+  @include phone {
+    background-color: red;
+    @include landscape {
+      background-color: orange;
     }
-    
-    @include tablet {
-        background: yellow;
-        
-        @include landscape {
-            color: violet;
-        }
+  }
+
+  @include tablet {
+    background-color: yellow;
+    @include landscape {
+      background-color: green;
     }
-    
-    @include desktop {
-        background: blue;
+  }
+
+  @include desktop {
+    background-color: blue;
+    @include portrait {
+      background-color: violet;
     }
+  }
 }
 ```
