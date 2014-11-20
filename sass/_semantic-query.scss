@@ -2,6 +2,8 @@
  * Semantic Query is a simplistic interface to media queries.
  * @author Ilkka Hakkarainen
  **/
+$breakpoint-default-media: 'screen';
 @import 'breakpoint-sass/stylesheets/breakpoint';
 
+@import 'variables';
 @import 'mixins';

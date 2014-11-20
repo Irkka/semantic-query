@@ -12,9 +12,15 @@ body {
 
   @include tablet {
     background-color: yellow;
+    @include landscape {
+      background-color: green;
+    }
   }
 
   @include desktop {
     background-color: blue;
+    @include portrait {
+      background-color: violet;
+    }
   }
 }
