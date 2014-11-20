@@ -1,0 +1,20 @@
+@import 'semantic-query';
+
+body {
+  background-color: green;
+
+  @include phone {
+    background-color: red;
+    @include landscape {
+      background-color: orange;
+    }
+  }
+
+  @include tablet {
+    background-color: yellow;
+  }
+
+  @include desktop {
+    background-color: blue;
+  }
+}

@@ -1,7 +1,0 @@
-@import 'breakpoint-sass/stylesheets/breakpoint';
-
-body {
-  @include breakpoint(500px) {
-    background-color: black;
-  }
-}

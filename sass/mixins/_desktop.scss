@@ -1,0 +1,5 @@
+@mixin desktop {
+  @include breakpoint(1000px) {
+    @content;
+  }
+}

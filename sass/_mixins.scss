@@ -1,0 +1,11 @@
+/**
+ * These mixins provide simplified contexts to developers.
+ * @group mixins
+ **/
+
+@import 'mixins/phone';
+@import 'mixins/tablet';
+@import 'mixins/desktop';
+
+@import 'mixins/landscape';
+@import 'mixins/portrait';
