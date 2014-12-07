@@ -1,5 +1,0 @@
-@mixin phone {
-  @include breakpoint($phone-min-width) {
-    @content;
-  }
-}

@@ -1,5 +1,0 @@
-@mixin tablet {
-  @include breakpoint($tablet-min-width) {
-    @content;
-  }
-}

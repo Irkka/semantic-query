@@ -10,6 +10,10 @@ body {
     }
   }
 
+  @include phone-only {
+    color: green;
+  }
+
   @include tablet {
     background-color: yellow;
     @include landscape {

@@ -1,0 +1,11 @@
+@mixin tablet-up {
+  @include breakpoint($tablet-min-width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @include breakpoint(($tablet-min-width $desktop-min-width), ($tablet-min-height $desktop-min-height)) {
+    @content;
+  }
+}
